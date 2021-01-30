@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pickers</string>
+    <string name="date">Date</string>
+    <string name="datePicker">datePicker</string>
+    <string name="confirm_date">Confirm Date</string>
+    <string name="select_time">Select time!</string>
+    <string name="time">Time</string>
+    <string name="timePicker">timePicker</string>
+</resources>

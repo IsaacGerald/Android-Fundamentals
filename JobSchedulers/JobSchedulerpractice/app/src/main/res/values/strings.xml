@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JobScheduler practice</string>
+    <string name="download_now">Download Now</string>
+    <string name="schedule_download">Schedule Download</string>
+    <string name="constraints_message">Job scheduled, Job will run when: Device is idle, Network is set to WIFI, Device is Charging</string>
+    <string name="cancel_job">Cancel Job</string>
+</resources>

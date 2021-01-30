@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">User Navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="these_are_the_top_stories">These are the top stories</string>
+    <string name="tech_news_you_can_use">Tech news you can use</string>
+    <string name="cooking_tips">Cooking tips</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="tech_news">Tech News</string>
+    <string name="cooking">Cooking</string>
+    <string name="header_background">header_background</string>
+    <string name="my_app">My App</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="gallery">Gallery</string>
+    <string name="action_import">Import</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="communication">Communication</string>
+    <string name="tools">Tools</string>
+    <string name="open_drawer">Open drawer navigation</string>
+    <string name="close_drawer">Close drawer navigation</string>
+</resources>

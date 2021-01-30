@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".activities.MessengerActivity">
+
+    <EditText
+        android:id="@+id/etFirstNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:id="@+id/etSecondNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:hint="0"/>
+
+    <TextView
+        android:id="@+id/textMessageResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/etSecondNum"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:text="Result"/>
+
+    <Button
+        android:id="@+id/btnMessageAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@+id/textMessageResult"
+        android:onClick="performAddOperation"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnBindService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMessageAdd"
+        android:layout_centerHorizontal="true"
+        android:onClick="bindService"
+        android:text="BindService"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/btnMessageUnbindService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="unbindService"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnBindService"
+        android:layout_marginTop="20dp"
+        android:text="Unbind service"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DispatchDraw</string>
+
+    <string name="good_night_moon">Goodnight Moon</string>
+    <string name="green_eggs_and_ham">Green Eggs and Ham</string>
+    <string name="matilda">Matilda</string>
+
+</resources>

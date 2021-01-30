@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Tester"/>
+
+    <Button
+        android:id="@+id/btnStartStartedService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start started service"
+        android:onClick="startStartedService"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Button
+        android:id="@+id/btnStopTheStartedService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="stopStartedService"
+        android:layout_below="@+id/btnStartStartedService"
+        android:text="Stop the started service" />
+
+    <TextView
+        android:id="@+id/txtStartServiceResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Started service result here"
+        android:layout_below="@id/btnStopTheStartedService"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnStartIntentService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnStopTheStartedService"
+        android:layout_marginTop="100dp"
+        android:onClick="startIntentService"
+        android:text="Start intent service"/>
+    <TextView
+        android:id="@+id/txtIntentServiceResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent service result here"
+        android:layout_below="@id/btnStartIntentService"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnLaunchMessageActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSecondActivity"
+        android:layout_marginBottom ="20dp"
+        android:onClick="LaunchMessageActivity"
+        android:layout_centerHorizontal="true"
+        android:text="Launch message activity"/>
+
+    <Button
+        android:id="@+id/btnSecondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move to second activity"
+        android:onClick="launchSecondActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

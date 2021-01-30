@@ -1,0 +1,4 @@
+com/example/android/phonenumberspinner/test/BuildConfig.java
+ com.example.android.phonenumberspinner.test.BuildConfig
+com/example/android/phonenumberspinner/SpinnerSelectionTest.java
+ com.example.android.phonenumberspinner.SpinnerSelectionTest

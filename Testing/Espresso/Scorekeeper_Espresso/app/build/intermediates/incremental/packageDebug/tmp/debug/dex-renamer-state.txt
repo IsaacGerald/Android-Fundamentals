@@ -1,0 +1,4 @@
+#Fri Dec 04 09:01:16 EAT 2020
+base.0=/home/gerah/AndroidStudioProjects/Scorekeeper_Espresso/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

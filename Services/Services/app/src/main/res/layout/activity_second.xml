@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    tools:context=".activities.MyBoundActivity">
+   <EditText
+       android:id="@+id/firstEditText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="50dp"
+       android:layout_marginLeft="20dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:hint="0"/>
+    <EditText
+        android:id="@+id/secondEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:hint="0"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/secondEditText"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClickEvent"
+        android:layout_below="@+id/txtResult"
+        android:layout_marginTop="40dp"
+        android:text="Add"/>
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickEvent"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/txtResult"
+        android:layout_alignTop="@+id/btnAdd"
+        android:text="Subtract"/>
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickEvent"
+        android:layout_alignLeft="@+id/btnAdd"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/btnAdd"
+        android:text="Multiply"/>
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickEvent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/btnSub"
+        android:layout_alignTop="@+id/btnMultiply"
+        android:text="Divide"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

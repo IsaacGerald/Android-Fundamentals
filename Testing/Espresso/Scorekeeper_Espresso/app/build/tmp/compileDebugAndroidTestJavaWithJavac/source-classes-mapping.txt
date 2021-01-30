@@ -1,0 +1,7 @@
+com/example/android/scorekeeper/test/BuildConfig.java
+ com.example.android.scorekeeper.test.BuildConfig
+com/example/android/scorekeeper/ExampleInstrumentedTest.java
+ com.example.android.scorekeeper.ExampleInstrumentedTest
+com/example/android/scorekeeper/MainActivityEspressoRecordTest.java
+ com.example.android.scorekeeper.MainActivityEspressoRecordTest
+ com.example.android.scorekeeper.MainActivityEspressoRecordTest$1

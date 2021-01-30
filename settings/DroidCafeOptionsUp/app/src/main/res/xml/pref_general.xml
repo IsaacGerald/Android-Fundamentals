@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <SwitchPreferenceCompat
+     app:key="pref_summary"
+     android:title="Enable social recommendations"
+     android:summary="@string/gen_pref_summary"
+     android:defaultValue="true" />
+
+    <EditTextPreference
+        android:key="pref_display_name"
+        android:title="Display name"
+        app:useSimpleSummaryProvider="true"
+        android:defaultValue="Your name"/>
+    <ListPreference
+        android:key="pref_add_friends"
+        android:title="Add friends to messages"
+        app:entries="@array/add_friends_to_messages_entries"
+        app:useSimpleSummaryProvider="true"
+        android:entryValues="@array/add_friends_to_messages_values"
+        android:defaultValue="@string/default_add_friends_value"/>
+
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+com/example/android/recyclerview/test/BuildConfig.java
+ com.example.android.recyclerview.test.BuildConfig
+com/example/android/recyclerview/MainRecycleViewActivityTest.java
+ com.example.android.recyclerview.MainRecycleViewActivityTest
+ com.example.android.recyclerview.MainRecycleViewActivityTest$1
+com/example/android/recyclerview/MainActivityTest.java
+ com.example.android.recyclerview.MainActivityTest

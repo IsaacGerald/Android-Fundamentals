@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.dispatchdraw.SideWaysLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="@color/yellow"
+        android:background="@color/dark_green"
+        android:text="@string/good_night_moon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="20dp"
+        android:textColor="@android:color/white"
+        android:background="@color/deep_orange"
+        android:textStyle="bold"
+        android:text="@string/green_eggs_and_ham" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="28dp"
+        android:textColor="@android:color/black"
+        android:background="@color/purple"
+        android:text="@string/matilda" />
+</com.example.dispatchdraw.SideWaysLayout>
