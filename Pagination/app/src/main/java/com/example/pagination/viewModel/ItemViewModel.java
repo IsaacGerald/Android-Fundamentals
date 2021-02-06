@@ -35,7 +35,7 @@ public class ItemViewModel extends AndroidViewModel {
         liveDataSource = itemDataSourceFactory.getItemLiveDataSource();
 
         PagedList.Config config = (new PagedList.Config.Builder())
-                .setEnablePlaceholders(false)
+                .setEnablePlaceholders(true)
                 .setPageSize(ItemDataSource.PAGE_SIZE)
                 .build();
 

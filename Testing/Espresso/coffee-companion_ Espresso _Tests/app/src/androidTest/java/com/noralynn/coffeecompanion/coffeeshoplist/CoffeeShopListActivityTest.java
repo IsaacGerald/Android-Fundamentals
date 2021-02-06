@@ -53,7 +53,51 @@ public class CoffeeShopListActivityTest {
     public GrantPermissionRule permissionRule = GrantPermissionRule.grant(Manifest.permission.ACCESS_FINE_LOCATION);
 
     @Rule
-    public IntentsTestRule<CoffeeShopListActivity> intentsTestRule = new IntentsTestRule<CoffeeShopListActivity>(CoffeeShopListActivity.class);
+    public IntentsTestRule<CoffeeShopListActivity> intentsTestRule = new IntentsTestRule<CoffeeShopListActivity>(CoffeeShopListActivity.class){
+        @Override
+        protected Intent getActivityIntent() {
+            //Intent intent = super.getActivityIntent();
+            Context targetContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+            CoffeeShopListModel fakeModel = new CoffeeShopListModel(true);
+            fakeModel.setCoffeeShops(getFakeCoffeeShops());
+            Intent result = new Intent(targetContext, CoffeeShopListActivity.class);
+            result.putExtra(CoffeeShopListActivity.COFFEE_SHOPS_BUNDLE_KEY, fakeModel);
+
+            return result;
+        }
+    };
+
+    private List<CoffeeShop> getFakeCoffeeShops() {
+        List<CoffeeShop> coffeeShops = new ArrayList<>(10);
+        for (int i = 0; i < 10; i++){
+            coffeeShops.add(CoffeeShop.fake(i));
+        }
+        coffeeShops.add(0, fakeCoffeeShop);
+
+        return coffeeShops;
+
+    }
+    @Test
+    public void testShareButton_ShouldSendCorrectIntent(){
+        String message = InstrumentationRegistry.getInstrumentation()
+                .getTargetContext().getResources()
+                .getString(R.string.coffee_shop_share_message,
+                        fakeCoffeeShop.getHumanReadableDistance(),
+                        fakeCoffeeShop.getName());
+
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                onView(withId(R.id.action_share)).perform(click());
+                intended(allOf(hasType("text/plain"),
+                        hasAction(Intent.ACTION_SEND),
+                        hasExtra(Intent.EXTRA_TEXT, message)));
+            }
+        }, 5000);
+
+    }
+
+
 //    {
 //        @Override
 //        protected Intent getActivityIntent() {
@@ -77,57 +121,57 @@ public class CoffeeShopListActivityTest {
 //        }
 //};
 
-    @Before
-    public void setUp(){
-        coffeeShopsIdlingResource = intentsTestRule.getActivity().getCoffeeShopsIdlingResources();
-        IdlingRegistry.getInstance().register(coffeeShopsIdlingResource);
-    }
-    @After
-    public void tearDown(){
-        if (null != coffeeShopsIdlingResource){
-            IdlingRegistry.getInstance().unregister(coffeeShopsIdlingResource);
-        }
-    }
-
-
-    @Test
-    public void testCoffeeShopClick_OpensCoffeeShopDetailsActivity(){
-        onView(withId(R.id.coffee_shops_recycler))
-                .perform(RecyclerViewActions.actionOnItemAtPosition(0, click()));
-        intended(hasComponent(CoffeeShopDetailActivity.class.getName()));
-    }
-
-
-
-    @Test
-    public void testShareButton_sendsCorrectShareIntent(){
-        String message = InstrumentationRegistry
-                .getInstrumentation()
-                .getTargetContext()
-                .getResources()
-                .getString(
-                        R.string.coffee_shop_share_message,
-                        fakeCoffeeShop.getHumanReadableDistance(),
-                        fakeCoffeeShop.getName()
-                );
-        onView(withId(R.id.action_share))
-                .perform(click());
-
-
-
-
-       new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-           @Override
-           public void run() {
-               intended(allOf(
-                       hasType("text/plain"),
-                       hasAction(Intent.ACTION_SEND),
-                       hasExtra(Intent.EXTRA_TEXT, message)
-               ));
-           }
-       }, 5000);
-
-    }
+//    @Before
+//    public void setUp(){
+//        coffeeShopsIdlingResource = intentsTestRule.getActivity().getCoffeeShopsIdlingResources();
+//        IdlingRegistry.getInstance().register(coffeeShopsIdlingResource);
+//    }
+//    @After
+//    public void tearDown(){
+//        if (null != coffeeShopsIdlingResource){
+//            IdlingRegistry.getInstance().unregister(coffeeShopsIdlingResource);
+//        }
+//    }
+//
+//
+//    @Test
+//    public void testCoffeeShopClick_OpensCoffeeShopDetailsActivity(){
+//        onView(withId(R.id.coffee_shops_recycler))
+//                .perform(RecyclerViewActions.actionOnItemAtPosition(0, click()));
+//        intended(hasComponent(CoffeeShopDetailActivity.class.getName()));
+//    }
+//
+//
+//
+//    @Test
+//    public void testShareButton_sendsCorrectShareIntent(){
+//        String message = InstrumentationRegistry
+//                .getInstrumentation()
+//                .getTargetContext()
+//                .getResources()
+//                .getString(
+//                        R.string.coffee_shop_share_message,
+//                        fakeCoffeeShop.getHumanReadableDistance(),
+//                        fakeCoffeeShop.getName()
+//                );
+//        onView(withId(R.id.action_share))
+//                .perform(click());
+//
+//
+//
+//
+//       new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+//           @Override
+//           public void run() {
+//               intended(allOf(
+//                       hasType("text/plain"),
+//                       hasAction(Intent.ACTION_SEND),
+//                       hasExtra(Intent.EXTRA_TEXT, message)
+//               ));
+//           }
+//       }, 5000);
+//
+//    }
 
 
 //    private static final CoffeeShop fakeCoffeeShop = CoffeeShop.fake(99);

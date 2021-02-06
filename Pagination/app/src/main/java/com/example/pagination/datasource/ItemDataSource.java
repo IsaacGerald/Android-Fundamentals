@@ -76,17 +76,18 @@ public class ItemDataSource extends PageKeyedDataSource<Integer, Item> {
          public void onResponse(Call<StackResponse> call, Response<StackResponse> response) {
              Log.d(TAG, "onResponse: loading data after...");
              if (response.body() != null){
+                 Log.d(TAG, "onResponse: loading data after...");
                  Integer key = response.body().has_more ? params.key + 1 : null;
                  callback.onResult(response.body().items, key);
              }else {
-                 Log.d(TAG, "onResponse: Retry loading data after"  );
+                 Log.d(TAG, "onResponse loadAfter: Retry loading ");
              }
 
          }
 
          @Override
          public void onFailure(Call<StackResponse> call, Throwable t) {
-             Log.d(TAG, "onFailure: loadAfter " + t.getMessage());
+             Log.d(TAG, "onFailure: loadAfter response failure " + t.getMessage());
          }
      });
 

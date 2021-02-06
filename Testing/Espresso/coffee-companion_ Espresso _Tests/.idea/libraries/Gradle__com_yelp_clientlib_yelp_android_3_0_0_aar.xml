@@ -4,6 +4,10 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d1ef67d8575663daf2d9794409905c4/yelp-android-3.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d1ef67d8575663daf2d9794409905c4/yelp-android-3.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d1ef67d8575663daf2d9794409905c4/yelp-android-3.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0d1ef67d8575663daf2d9794409905c4/jetified-yelp-android-3.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82af4f479c50fabf99661e392566d7aa/jetified-yelp-android-3.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82af4f479c50fabf99661e392566d7aa/jetified-yelp-android-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/82af4f479c50fabf99661e392566d7aa/jetified-yelp-android-3.0.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yelp.clientlib/yelp-android/3.0.0/e15fdec2ee3e41fe7a196d78c6ee0a67642a7bfd/yelp-android-3.0.0-javadoc.jar!/" />

@@ -18,6 +18,7 @@ import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.assertion.LayoutAssertions.noEllipsizedText;
 import static androidx.test.espresso.assertion.LayoutAssertions.noOverlaps;
 import static androidx.test.espresso.assertion.PositionAssertions.isAbove;
+import static androidx.test.espresso.assertion.PositionAssertions.isCompletelyAbove;
 import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayingAtLeast;
@@ -35,48 +36,73 @@ public class BeverageDetailActivityTest {
     @Rule
     public ActivityTestRule<BeverageDetailActivity>
               mScenarioRule = new ActivityTestRule<BeverageDetailActivity>(BeverageDetailActivity.class){
-
         @Override
         protected Intent getActivityIntent() {
-            Context targetContext = InstrumentationRegistry
-                    .getInstrumentation()
-                    .getTargetContext();
-            Intent result = new Intent(targetContext, BeverageDetailActivity.class);
-            result.putExtra(BEVERAGE_MODEL_BUNDLE_KEY, beverage);
-            return result;
+            Context context = InstrumentationRegistry.getInstrumentation().getTargetContext();
+            Intent intent = new Intent(context, BeverageDetailActivity.class);
+            intent.putExtra(BEVERAGE_MODEL_BUNDLE_KEY, beverage);
+            return intent;
+
+
+
         }
     };
-
-    @Test
-    public void testTitle_shouldBePositionedAboveImageView(){
-        onView(withId(R.id.text_title))
-                .check(isAbove(withId(R.id.image_beverage)));
-
+   @Test
+    public void testTitle_shouldBePositionedAboveBeverageImageView(){
+        onView(withId(R.id.text_title)).check(isCompletelyAbove(withId(R.id.image_beverage)));
     }
-
-    @Test
+   @Test
     public void testDescription_shouldBeSetToCorrectBeverageDescriptionText(){
-        onView(withId(R.id.text_title))
-                .check(matches(withText(beverage.getName())));
-
+       onView(withId(R.id.text_description)).check(matches(withText(beverage.getDescription())));
     }
+
     @Test
-    public void testImage_ShouldBeDisplayed(){
-        onView(withId(R.id.image_beverage))
-                .check(matches(isDisplayed()));
+    public void testImage_BeverageImageShouldBeDisplayed(){
+        onView(withId(R.id.image_beverage)).check(matches(isDisplayed()));
     }
-
     @Test
     public void textDescriptionShouldNotContainEllipsizedText(){
-        onView(withId(R.id.text_description))
-                .check(noEllipsizedText());
+        onView(withId(R.id.text_description)).check(noEllipsizedText());
     }
 
     @Test
-    public void testBeverageActivityShouldNotHaveAnyOverlaps(){
-        onView(withId(R.id.activity_beverage))
-                .check(noOverlaps());
+    public void testBeverageActivityShouldNotHaveAnyOverlaps() {
+       onView(withId(R.id.activity_beverage)).check(noOverlaps());
     }
+
+//        {@Override
+//        protected Intent getActivityIntent() {
+//            Context targetContext = InstrumentationRegistry
+//                    .getInstrumentation()
+//                    .getTargetContext();
+//            Intent result = new Intent(targetContext, BeverageDetailActivity.class);
+//            result.putExtra(BEVERAGE_MODEL_BUNDLE_KEY, beverage);
+//            return result;
+//        }
+//    };
+
+//    @Test
+//    public void testTitle_shouldBePositionedAboveImageView(){
+//        onView(withId(R.id.text_title))
+//                .check(isAbove(withId(R.id.image_beverage)));
+//
+//    }
+
+//    @Test
+//    public void testDescription_shouldBeSetToCorrectBeverageDescriptionText(){
+//        onView(withId(R.id.text_title))
+//                .check(matches(withText(beverage.getName())));
+//
+////    }
+//    @Test
+//    public void testImage_ShouldBeDisplayed(){
+//        onView(withId(R.id.image_beverage))
+//                .check(matches(isDisplayed()));
+//    }
+
+
+
+
 
 
 

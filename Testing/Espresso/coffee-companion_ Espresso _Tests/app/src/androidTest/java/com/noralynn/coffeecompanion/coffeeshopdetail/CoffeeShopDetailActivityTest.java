@@ -17,6 +17,8 @@ import static androidx.test.espresso.intent.matcher.IntentMatchers.hasAction;
 
 import com.noralynn.coffeecompanion.R;
 import com.noralynn.coffeecompanion.coffeeshoplist.CoffeeShop;
+import com.noralynn.coffeecompanion.coffeeshoplist.CoffeeShopListActivity;
+
 import static androidx.test.espresso.action.ViewActions.click;
 
 import org.junit.Rule;
@@ -49,51 +51,77 @@ public class CoffeeShopDetailActivityTest {
             mTestRule = new IntentsTestRule<CoffeeShopDetailActivity>(CoffeeShopDetailActivity.class){
         @Override
         protected Intent getActivityIntent() {
+            //Intent intent = super.getActivityIntent();
             Context targetContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
             CoffeeShopDetailModel fakeModel = new CoffeeShopDetailModel();
             fakeModel.setCoffeeShop(fakeCoffeeShop);
-            Intent result = new Intent(targetContext, CoffeeShopDetailActivity.class);
-            result.putExtra(CoffeeShopDetailActivity.COFFEE_SHOP_BUNDLE_KEY, fakeModel.getCoffeeShop());
-            return result;
-        }
+            Intent intent1 = new Intent(targetContext, CoffeeShopDetailActivity.class);
+            intent1.putExtra(CoffeeShopDetailActivity.COFFEE_SHOP_BUNDLE_KEY, fakeModel.getCoffeeShop());
 
-        @Override
-        protected void afterActivityLaunched() {
-            super.afterActivityLaunched();
-            onWebView(withId(R.id.button_website)).forceJavascriptEnabled();
+            return intent1;
         }
     };
-
-
     @Test
-    public void testMapButton_sendsMapViewLocationIntent(){
-        Uri uri = Uri.parse("geo:0,0?q=" + fakeCoffeeShop.getAddress());
+    public void testMap_sendsMapViewLocationIntent(){
+        Uri desiredUri = Uri.parse("geo:0,0?q=" + fakeCoffeeShop.getAddress());
+
         onView(withId(R.id.button_map)).perform(click());
 
-        intended(allOf(
-                hasAction(Intent.ACTION_VIEW),
-                hasData(uri)
-
-        ));
+        intended(allOf(hasAction(Intent.ACTION_VIEW),
+                hasData(desiredUri)));
     }
 
-    @Test
-    public void testClickWebsiteButton_OpensWebViewCoffeeShopUrl(){
-        onView(withId(R.id.button_website))
-                .perform(click());
 
-/*-----------------checking if toast is displayed correctly on a button click-------------*/
-        onWebView()
-                .withElement(findElement(Locator.ID, "button"))
-                .perform(webClick());
-    //alters the state of what is shown on a webView
-        onWebView().reset();
 
-        onView(withText(R.string.app_name))
-                .inRoot(withDecorView(not(is(mTestRule.getActivity().getWindow().getDecorView()))))
-                .check(matches(isDisplayed()));
 
-    }
+
+//        @Override
+//        protected Intent getActivityIntent() {
+//            Context targetContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+//            CoffeeShopDetailModel fakeModel = new CoffeeShopDetailModel();
+//            fakeModel.setCoffeeShop(fakeCoffeeShop);
+//            Intent result = new Intent(targetContext, CoffeeShopDetailActivity.class);
+//            result.putExtra(CoffeeShopDetailActivity.COFFEE_SHOP_BUNDLE_KEY, fakeModel.getCoffeeShop());
+//            return result;
+//        }
+//
+//        @Override
+//        protected void afterActivityLaunched() {
+//            super.afterActivityLaunched();
+//            onWebView(withId(R.id.button_website)).forceJavascriptEnabled();
+//        }
+//    };
+//
+//
+//    @Test
+//    public void testMapButton_sendsMapViewLocationIntent(){
+//        Uri uri = Uri.parse("geo:0,0?q=" + fakeCoffeeShop.getAddress());
+//        onView(withId(R.id.button_map)).perform(click());
+//
+//        intended(allOf(
+//                hasAction(Intent.ACTION_VIEW),
+//                hasData(uri)
+//
+//        ));
+//    }
+//
+//    @Test
+//    public void testClickWebsiteButton_OpensWebViewCoffeeShopUrl(){
+//        onView(withId(R.id.button_website))
+//                .perform(click());
+//
+///*-----------------checking if toast is displayed correctly on a button click-------------*/
+//        onWebView()
+//                .withElement(findElement(Locator.ID, "button"))
+//                .perform(webClick());
+//    //alters the state of what is shown on a webView
+//        onWebView().reset();
+//
+//        onView(withText(R.string.app_name))
+//                .inRoot(withDecorView(not(is(mTestRule.getActivity().getWindow().getDecorView()))))
+//                .check(matches(isDisplayed()));
+//
+//    }
 
 
 
