@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Localization M2 Demo</string>
+    <string name="txt_hello">नमस्कार! क्या हाल है?</string>
+</resources>
