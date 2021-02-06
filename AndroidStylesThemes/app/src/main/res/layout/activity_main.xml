@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:padding="20dp"
+	tools:context="com.sriyanksiddhartha.stylesandthemesdemo.MainActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:textStyle="bold"
+		android:text="Small Text"/>
+
+	<TextView
+		style="@style/AppLargeText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="italic"
+		android:text="Medium Text"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Large Text"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Extra Large Text"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Extra Large Light"/>
+
+	<RadioButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="My Radio Button" />
+
+	<TextView
+		android:id="@+id/txvGradient"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Gradient"
+		android:textStyle="bold"
+		android:textSize="50sp"/>
+
+	//gradient and shadows
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="50sp"
+		android:textStyle="bold"
+		android:shadowDx="10"
+		android:shadowDy="10"
+		android:shadowRadius="10"
+		android:shadowColor="#5000"
+		android:text="Shadow"/>
+
+
+</LinearLayout>

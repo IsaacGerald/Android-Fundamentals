@@ -1,0 +1,72 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2017 The Android Open Source Project
+4
+5Licensed under the Apache License, Version 2.0 (the "License");
+6you may not use this file except in compliance with the License.
+7You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11Unless required by applicable law or agreed to in writing, software
+12distributed under the License is distributed on an "AS IS" BASIS,
+13WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14See the License for the specific language governing permissions and
+15limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.exoplayercodelab"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="26"
+23-->/home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->/home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-67
+26-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:22-64
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.android.exoplayer:exoplayer-core:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/70c2a3887285790604944d7dee8164eb/jetified-exoplayer-core-2.12.0/AndroidManifest.xml:24:5-79
+27-->[com.google.android.exoplayer:exoplayer-core:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/70c2a3887285790604944d7dee8164eb/jetified-exoplayer-core-2.12.0/AndroidManifest.xml:24:22-76
+28
+29    <application
+29-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:5-44:19
+30        android:allowBackup="true"
+30-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.3.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/eef130869c43ba3a3a3c223019a06d1b/core-1.3.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-43
+34        android:label="@string/app_name"
+34-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-41
+35        android:supportsRtl="true"
+35-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-35
+36        android:testOnly="true" >
+37        <activity
+37-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-43:20
+38            android:name="com.example.exoplayer.PlayerActivity"
+38-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-64
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+39-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-122
+40            android:label="@string/player_activity_name"
+40-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-57
+41            android:theme="@style/PlayerTheme" >
+41-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-47
+42            <intent-filter>
+42-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-42:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:17-69
+43-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:17-77
+45-->[:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:27-74
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>

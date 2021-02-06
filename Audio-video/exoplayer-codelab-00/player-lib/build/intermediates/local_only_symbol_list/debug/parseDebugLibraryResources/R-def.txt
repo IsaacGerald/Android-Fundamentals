@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable google_logo
+id video_view
+layout activity_player
+layout custom_playback_control
+mipmap ic_launcher
+string app_name
+string logo
+string media_url_dash
+string media_url_mp3
+string media_url_mp4
+string player_activity_name
+style PlayerTheme

@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+MERGED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:1-46:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/697051fa783b564b0de7da392527272f/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/466f705b502ee1de32317eb5f8ff17e7/exoplayer-dash-2.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/f8fced1be2b412cbdbbf6a3a2f2d1ac4/jetified-exoplayer-ui-2.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/70c2a3887285790604944d7dee8164eb/jetified-exoplayer-core-2.12.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/7edda03e1deccd33f13bb2193184f834/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/d042f14efeac06a84697a79bdac31c23/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a3f22241f8a5fb108462be69227846ac/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.1] /home/gerah/.gradle/caches/transforms-2/files-2.1/0f1fa453f46372d5a5d7c622bca55792/media-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/03b567c4539c55d00bcbdb7c7beadcad/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/50d03d4bd0678052af20ac77ba46270a/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/cfa8394d1e4c76b354ee70c194a4d10c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/b1e33b2b8ad78a88a03dd63b08d14a4c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/635e19250c7036544f0d21a3d81fe3e0/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/dab9ee95c49dfb4c3689b5907db13e8a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/f0e93e18c1d9d5a05a46bca247db7cab/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/eef130869c43ba3a3a3c223019a06d1b/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/e0db96824e348dae8b50d47caab563d0/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/b0a8d64ece482d403860f1ee1bfa670e/jetified-exoplayer-extractor-2.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/13a5cfcaa3922ea4ffc021a1c5846e18/jetified-exoplayer-common-2.12.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/fc11633fd07c12518c9121e2cff169c0/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a2d44ceb88b0af413e5362460c90d366/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/29e30fc94585ea4f8aad29cc0046bcd3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a002c7205cf24170335509c3cbeb236c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/ac9c23a3003d28249b7d5cb95239a03c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/e61958c976ec6e46ce8c7628d45cb499/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/66d75fb9aa8de256063c2e6f43acc838/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/3f5e964f8554e664b00991ee6e9102a9/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+	package
+		ADDED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:15:5-43
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+		ADDED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+		ADDED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:1-16:12
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml:14:11-69
+uses-sdk
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+MERGED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:5-24:41
+MERGED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/697051fa783b564b0de7da392527272f/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/697051fa783b564b0de7da392527272f/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/466f705b502ee1de32317eb5f8ff17e7/exoplayer-dash-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/466f705b502ee1de32317eb5f8ff17e7/exoplayer-dash-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/f8fced1be2b412cbdbbf6a3a2f2d1ac4/jetified-exoplayer-ui-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/f8fced1be2b412cbdbbf6a3a2f2d1ac4/jetified-exoplayer-ui-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/70c2a3887285790604944d7dee8164eb/jetified-exoplayer-core-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/70c2a3887285790604944d7dee8164eb/jetified-exoplayer-core-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/7edda03e1deccd33f13bb2193184f834/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/7edda03e1deccd33f13bb2193184f834/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/d042f14efeac06a84697a79bdac31c23/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/d042f14efeac06a84697a79bdac31c23/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a3f22241f8a5fb108462be69227846ac/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a3f22241f8a5fb108462be69227846ac/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /home/gerah/.gradle/caches/transforms-2/files-2.1/0f1fa453f46372d5a5d7c622bca55792/media-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /home/gerah/.gradle/caches/transforms-2/files-2.1/0f1fa453f46372d5a5d7c622bca55792/media-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/03b567c4539c55d00bcbdb7c7beadcad/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/03b567c4539c55d00bcbdb7c7beadcad/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/50d03d4bd0678052af20ac77ba46270a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/50d03d4bd0678052af20ac77ba46270a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/cfa8394d1e4c76b354ee70c194a4d10c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/cfa8394d1e4c76b354ee70c194a4d10c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/b1e33b2b8ad78a88a03dd63b08d14a4c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/b1e33b2b8ad78a88a03dd63b08d14a4c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/635e19250c7036544f0d21a3d81fe3e0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/635e19250c7036544f0d21a3d81fe3e0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/dab9ee95c49dfb4c3689b5907db13e8a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/dab9ee95c49dfb4c3689b5907db13e8a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/f0e93e18c1d9d5a05a46bca247db7cab/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/f0e93e18c1d9d5a05a46bca247db7cab/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/eef130869c43ba3a3a3c223019a06d1b/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/eef130869c43ba3a3a3c223019a06d1b/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/e0db96824e348dae8b50d47caab563d0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/e0db96824e348dae8b50d47caab563d0/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/b0a8d64ece482d403860f1ee1bfa670e/jetified-exoplayer-extractor-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/b0a8d64ece482d403860f1ee1bfa670e/jetified-exoplayer-extractor-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/13a5cfcaa3922ea4ffc021a1c5846e18/jetified-exoplayer-common-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/13a5cfcaa3922ea4ffc021a1c5846e18/jetified-exoplayer-common-2.12.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/fc11633fd07c12518c9121e2cff169c0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/fc11633fd07c12518c9121e2cff169c0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a2d44ceb88b0af413e5362460c90d366/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a2d44ceb88b0af413e5362460c90d366/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/29e30fc94585ea4f8aad29cc0046bcd3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/29e30fc94585ea4f8aad29cc0046bcd3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a002c7205cf24170335509c3cbeb236c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/a002c7205cf24170335509c3cbeb236c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/ac9c23a3003d28249b7d5cb95239a03c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/ac9c23a3003d28249b7d5cb95239a03c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/e61958c976ec6e46ce8c7628d45cb499/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/e61958c976ec6e46ce8c7628d45cb499/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/66d75fb9aa8de256063c2e6f43acc838/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/66d75fb9aa8de256063c2e6f43acc838/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/3f5e964f8554e664b00991ee6e9102a9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/3f5e964f8554e664b00991ee6e9102a9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+		ADDED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+		ADDED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:22-64
+application
+ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:5-44:19
+MERGED from [androidx.core:core:1.3.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/eef130869c43ba3a3a3c223019a06d1b/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/eef130869c43ba3a3a3c223019a06d1b/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/fc11633fd07c12518c9121e2cff169c0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/fc11633fd07c12518c9121e2cff169c0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/eef130869c43ba3a3a3c223019a06d1b/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-35
+	android:label
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-43
+	android:allowBackup
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-35
+activity#com.example.exoplayer.PlayerActivity
+ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-43:20
+	android:label
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-57
+	android:configChanges
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-122
+	android:theme
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-47
+	android:name
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from [:player-lib] /home/gerah/Downloads/exoplayer-intro-master/exoplayer-codelab-00/player-lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:27-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/70c2a3887285790604944d7dee8164eb/jetified-exoplayer-core-2.12.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/13a5cfcaa3922ea4ffc021a1c5846e18/jetified-exoplayer-common-2.12.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/13a5cfcaa3922ea4ffc021a1c5846e18/jetified-exoplayer-common-2.12.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.12.0] /home/gerah/.gradle/caches/transforms-2/files-2.1/70c2a3887285790604944d7dee8164eb/jetified-exoplayer-core-2.12.0/AndroidManifest.xml:24:22-76
